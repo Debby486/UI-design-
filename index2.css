@@ -1,0 +1,113 @@
+.container{
+    font-size: 14px;
+}
+.img-size{
+    width: 100px;
+}
+.container-fluid{
+    background:url('https://images.unsplash.com/photo-1479796099910-b137a80acde4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60');
+    height: 200px;
+    text-align: center;
+    color: white;
+    
+}
+.grocery{
+    padding: 50px 50px;
+}
+.rounded-pill{
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    border: none;
+}
+.cat-box{
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+}
+.product a[href]{
+    text-decoration: underline;
+}
+.category, .restaurant{
+    justify-content:space-evenly;
+    display: flex;
+}
+.restaurant{
+    margin-top: 5px;
+    background-color: cornsilk;
+}
+.rest{
+    height: 40px;
+}
+.fa{
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.input-field{
+    border-radius:25px;
+    width:500px;
+}
+.search-box {
+    display: flex;
+    padding: 8px;
+    border-radius: 25px;
+}
+.icon {
+    position: relative;
+    right: 2rem;
+
+}
+.image{
+    height: 150px;
+}
+.card-body{
+    align-items: center;
+}
+.text{
+    font: 12px;
+}
+.nav-link{
+    color: black;
+}
+nav-link.active,
+nav-link:hover{
+    color: #396AFC!important;
+}
+.carousel-inner{
+    max-height: 40rem !important;
+  }
+  
+  /*---Change Carousel Transition Speed --*/
+  .carousel-item-next,
+  .carousel-item-previous,
+  .carousel-item.active{
+    transition: transform 1.2s ease;
+  }
+  .carousel-indicators li {
+    width: 80px;
+    height: 40px;
+  }
+  
+  /*-- Carousel Content --*/
+  .carousel-caption{
+    position: absolute;
+    top:47%;
+  }
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
